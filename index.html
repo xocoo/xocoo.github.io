@@ -5,39 +5,46 @@
         <title>Personal Page</title>
         <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
         <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+        <script src="do.js" type="text/javascript" charset="utf-8"></script>
     </head>
     <body>
         <div class="container">
-            <div class="row">
-                <div class="col-sm-4">
-                    <h3>Drop me a line!</h3>
-                    <hr>
-                    <address>
-                    <strong>Email:</strong> <a href="mailto:#"> name@domain.com</a><br><br>
-                    <strong>Phone:</strong> (555)123-4567
-                    </address>
-                </div>
-                
-                <div class="col-sm-8 contact-form">
-                    <form id="contact" method="post" class="form" role="form">
+            <div class="well well-sm quick-contact">
+                <div class="row">
+                    <div class="col-md-12">
                         <div class="row">
-                            <div class="col-xs-6 col-md-6 form-group">
-                                <input class="form-control" id="name" name="name" placeholder="Name" type="text" required autofocus />
+                            <div class="col-md-4">
+                                <h1 class="title-contact">
+                                    Quick Contact</h1>
                             </div>
-                            <div class="col-xs-6 col-md-6 form-group">
-                                <input class="form-control" id="email" name="email" placeholder="Email" type="email" required />
+                            <div class="col-md-4 contact-email">
+                                <h2>
+                                    info@website.com</h2>
+                                <h3>
+                                    +12 34567890, +12 34567890</h3>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="row contact row-first">
+                                    <div class="col-md-6">
+                                        <a href="http://www.jquery2dotnet.com" class="skype"><i class="fa fa-skype"></i>skypeuser</a>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <a href="http://www.jquery2dotnet.com" class="google"><i class="fa fa-google-plus"></i>googleplus</a>
+                                    </div>
+                                </div>
+                                <div class="row contact">
+                                    <div class="col-md-6">
+                                        <a href="http://www.jquery2dotnet.com" class="linkedin"><i class="fa fa-linkedin"></i>linkedin_id</a>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <a href="http://www.jquery2dotnet.com" class="twitter"><i class="fa fa-twitter"></i>twitter_id</a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <textarea class="form-control" id="message" name="message" placeholder="Message" rows="5"></textarea>
-                        <br />
-                        <div class="row">
-                        <div class="col-xs-12 col-md-12 form-group">
-                        <button class="btn btn-primary pull-right" type="submit">Submit</button>
-                    </form>
+                    </div>
                 </div>
             </div>
         </div>
-            
-        </div>>
     </body>
 </html>
