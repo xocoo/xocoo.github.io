@@ -11,3 +11,12 @@ body{
     margin: 0 auto;
     padding-top: 200px;
 }
+a {
+    color: #07B3D3;
+    text-decoration: none;
+}
+a:hover{
+    font-weight: bold;
+    font-size: 90%;
+
+}
