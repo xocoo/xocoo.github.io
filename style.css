@@ -1,6 +1,12 @@
+body{
+    font-family: verdana, hevletica, arial, sans-serif;
+    background: #fefefe;
+    color: #333;
+    width: 100%;
+}
 .container {
     padding: 12px;
-    max-width: 900px;
+    max-width: 400px;
     width: 100%;
     margin: 0 auto;
     padding-top: 200px;
@@ -16,4 +22,9 @@ a.btn {
     font-size: 16px;
     color: #555555;
     text-decoration: none;
+}
+a.btn:hover {
+    background-color: #555555;
+    color: #ffffff;
+    border: 1px solid #555555;
 }
