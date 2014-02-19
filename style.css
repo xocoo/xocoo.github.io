@@ -1,0 +1,19 @@
+.container {
+    padding: 12px;
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 200px;
+}
+a.btn {
+    display: block;
+    width: 120px;
+    margin-bottom: 10px;
+    background-color: #f1f1f1;
+    border: 1px solid #e3e3e3;
+    padding: 8px;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #555555;
+    text-decoration: none;
+}
